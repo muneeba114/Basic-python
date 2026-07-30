@@ -53,7 +53,7 @@ def show_balance():
     messagebox.showinfo("Current Balance", f"Aapka meojooda balance hai: PKR {balance:.2f}")
 
 def update_balance_display():
-    label_balance.config(text=f"Current Balance: PKR {balance:.2f}")
+    label_balance.config(text=f"Current Balance : PKR {balance:.2f}")
 
 def clear_history():
     history_list.delete(0, tk.END)
